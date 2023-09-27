@@ -1,0 +1,90 @@
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: 
+      url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  .glass{
+    height:fit-content;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  
+  
+    border: 1px solid rgba(6, 6, 6, 0.25);
+    
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.45);
+  
+    backdrop-filter: blur(0px);
+  }
+  .form-group {
+    margin-bottom: 20px;
+    line-height: 10px;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='email'] {
+     
+  margin-left: 20px;
+    width: 80%;
+    padding: 10px;
+    font-size: 13px;
+    
+  }
+  h3{
+    color: #fefbfb;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 65px;
+    
+  }
+  h4{
+    color: darkgray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+  }
+  .error {
+    color: #000000;
+    margin-top: 5px;
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: -10px;
+    background-color: #020202;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #181515;
+  }
+  a{
+    color:#7fbcbc
+  }
+ 
+  
+  
+  
+  
+  
+  
