@@ -1,0 +1,143 @@
+/* FoodCard.css */
+.purchasecon{
+  background-size: cover;
+  background-attachment:scroll;
+    background-image: url(dash-down.jpeg);
+   height:2500px;
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+ 
+  position: relative;
+  max-height: 100vh;
+  overflow-y: auto;
+  
+}
+.ss{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.search{
+    width: 900px;
+    padding: 10px;
+  margin-left: 350px;
+  margin-top: 100px;
+ 
+  border-color: black;
+  }
+  .food-card {
+    /*float:left;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: black;
+    width:350px;
+    margin-top: 80px;
+   font-size: 1.3rem;*/
+
+   float: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: black;
+  width: 350px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  }
+  .foodtitle{
+    font-size: 2rem;
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  .foodlocation{
+    margin-top: 10px;
+    margin-left: 1px;
+    position: relative;
+    font-size: 1rem;
+    
+  }
+  .foodlocation::before {
+    content: '\1F4CD'; /* Unicode character for a location pointer */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use an appropriate font */
+    color: #2839a7; /* Adjust the color as needed */
+    font-size: 1.2em;
+    margin-right: 5px; /* Adjust the spacing as needed */
+  }
+  
+  .fooddate{
+    position: relative;
+    
+    margin-top: 10px;
+
+    
+  }
+  .fooddate::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: #102337; /* Adjust the color as needed */
+    font-size: 1.2em;
+    margin-right: 10px; /* Adjust the spacing as needed */
+  }
+  .foodlocation,
+  .fooddate {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+  }
+  .fooddes{
+    position: relative;
+    font-size:1rem;
+    margin-top: 8px;
+    margin-left: 3px;
+  }
+  .foodexpiry{
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+
+  .food-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .food-details {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .food-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color:black;
+  }
+  
+  .food-location {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  
+
+  .pickup-delivery {
+    font-size: 14px;
+    color: #555;
+  }
+  .volunteers-button{
+  margin-left: 180px;
+  width:20px;
+  }

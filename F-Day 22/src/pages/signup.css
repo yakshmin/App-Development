@@ -1,0 +1,296 @@
+/* .login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: 
+      url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  .glass{
+    height:fit-content;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  
+  
+    border: 1px solid rgba(6, 6, 6, 0.25);
+    
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.45);
+  
+    backdrop-filter: blur(0px);
+  }
+  .form-group {
+    margin-bottom: 20px;
+    line-height: 10px;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='email'] {
+     
+  margin-left: 20px;
+    width: 80%;
+    padding: 10px;
+    font-size: 13px;
+    
+  }
+
+  .regtext{
+    color: #fefbfb;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:35px;
+  }
+
+  h3{
+    color: #fefbfb;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 65px;
+    
+  }
+  h4{
+    color: darkgray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+  }
+  .error {
+    color: #000000;
+    margin-top: 5px;
+  }
+  
+  .signup{
+    width: 80px;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: #020202;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: -10px;
+  }
+  
+  .signup:hover {
+    background-color: #181515;
+  }
+  a{
+    color:#7fbcbc;
+    margin-left:0px;
+  }
+ 
+  
+  
+  
+  
+  
+   */
+
+
+
+
+
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+/* body {
+  width: 100%;
+  height: 100vh;
+   display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  background-color: #d9d9d9;
+  background-image:url("E:\MyProject\App - FAC\src\Logo fac.jpeg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: 100%;
+} */
+
+.signh2 {
+  color: rgb(15, 1, 1);
+  margin: 10px 0 10px;
+  font-size: 20px;
+}
+.signh3 {
+  margin-bottom: 10px;
+  color: rgb(15, 1, 1);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+ /* a {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 5px 0;
+  display: block;
+  color: rgb(15, 1, 1);
+} */
+
+
+.signup {
+  width: 30%;
+  padding: 10px;
+  background-color: #121111;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 20px 0;
+  transition: .3s ease all;
+}
+
+
+.signup:hover {
+  cursor: pointer;
+  background-color: rgb(2, 0, 6);
+  transition: .3s ease all;
+}
+
+label {
+  display: block;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.login .outer-container {
+min-width: 500px;
+min-height: 500px;
+  margin-top: 100px;
+ text-align: center;
+  background: rgba(246, 247, 248, 0.956);
+  border-radius: 13px;
+  margin-left:100px;
+}
+.outer-container {
+  min-width: 400px;
+  min-height: 400px;
+  text-align: center;
+  background: rgb(248, 250, 252);
+  border-radius: 13px;
+  margin-top: 120px;
+  margin-left:500px;
+}
+
+.content-container {
+    width: 70%;
+  height: 100%
+}
+
+.content-container > img {
+  width: 40%;
+  margin-top: 10px;
+}
+
+.login h4{
+  padding-top: 6px;
+}
+input[type="email"], input[type="password"],input[type="text"],input[type="calendar"] {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgb(23, 22, 22);
+  border-radius: 5px;
+  background: rgb(247, 248, 249);
+}
+#log{
+  margin-left: 10px;
+  font-size:x-large;
+  text-transform: uppercase;
+
+  
+}
+.checkbox {
+  margin: 10px 0;
+  text-align: left;
+  font-weight: 200;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/*.SIGNUP {
+  color: rgb(236, 243, 238);
+  padding-top: 3%;
+  font-size: medium;
+  margin-left: 20px;
+  width:150px;
+  
+}*/
+
+@media screen and (min-width: 500px) {
+  .outer-container {
+    box-shadow: 5px 3px 20px -3px #121212;
+    height: 525px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  form {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .outer-container {
+    width: 500px;
+    display: flex;
+  }
+  
+  .content-container {
+    width: 800%;
+  }
+  
+  .login .image-container {
+    border-radius: 10px;
+    width: 50%;
+    background: bottom / 100% url('');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin-bottom: 60px;
+  }
+  .ins-register .image-container{
+    border-radius: 10px;
+    width: 50%;
+    /* background: bottom / 100% url("https://media.istockphoto.com/photos/shopping-domestic-background-picture-id863608932?k=6&m=863608932&s=612x612&w=0&h=4CcPdBon3kJINMIDREzK3-Ogn-O_c_iPyO7rR_g5bH0=");
+    background-repeat: no-repeat; */
+    background-size: 120%;
+    margin-bottom: 200px;
+  }
+  .student-reg .image-container{
+    border-radius: 10px;
+    width: 49%;
+    background-position-x: center;
+    /* background: bottom / 100% url('https://d1idiaqkpcnv43.cloudfront.net/website1.0/images/sign-up.png');
+    background-repeat: no-repeat; */
+    background-size: 125%;
+    margin-bottom: 90px;
+    margin-right: 10px;
+}
+}
